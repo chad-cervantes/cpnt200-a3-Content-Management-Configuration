@@ -1,6 +1,5 @@
 <script>
   export let data;
-  // let { travel } = data;
 </script>
 
 <ul>
@@ -13,3 +12,17 @@
     <p>{blog.body}</p>
   {/each}
 </ul>
+
+<style>
+  ul {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    color: red;
+  }
+
+  h2 {
+    color: darkgoldenrod;
+  }
+</style>

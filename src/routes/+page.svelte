@@ -7,12 +7,12 @@
 </script>
 
 <ul>
-  {#each data.travel as {title,author,date,tags,summary,body}}
-    <p>{title}</p>
-    <p>{author}</p>
-    <p>{date}</p>
-    <p>{tags}</p>
-    <p>{summary}</p>
-    <p>{body}</p>
+  {#each data.travel as blog}
+    <p>{blog.title}</p>
+    <p>{blog.author}</p>
+    <p>{blog.date}</p>
+    <p>{blog.tags}</p>
+    <p>{blog.summary}</p>
+    <p>{blog.body}</p>
   {/each}
 </ul>

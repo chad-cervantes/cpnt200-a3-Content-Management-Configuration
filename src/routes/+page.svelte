@@ -1,6 +1,3 @@
-<!-- <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
-
 <script>
   export let data;
   // let { travel } = data;
@@ -8,11 +5,11 @@
 
 <ul>
   {#each data.travel as blog}
-    <p>{blog.title}</p>
-    <p>{blog.author}</p>
+    <h1>{blog.title}</h1>
+    <h2>{blog.author}</h2>
     <p>{blog.date}</p>
     <p>{blog.tags}</p>
-    <p>{blog.summary}</p>
+    <h3>{blog.summary}</h3>
     <p>{blog.body}</p>
   {/each}
 </ul>
